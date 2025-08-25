@@ -1,24 +1,15 @@
 <?php
+$servidor = "sql104.infinityfree.com";      // MySQL Host Name
+$usuario = "if0_39789672";                  // MySQL User Name
+$password = "WYefInYxyb";                   // MySQL Password
+$bd = "if0_39789672_sistema";               // MySQL DB Name
 
-$servidor = "localhost";
-$usuario = "root";
-$password = "";
-$bd = "sistema";
-
-//conexion a la base del datos
-
-try{
+try {
     $conexion = new PDO("mysql:host=$servidor;dbname=$bd", $usuario, $password);
-    
     $conexion->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
-    //echo "Conexión exitosa a la base de datos";
-
+    // echo "Conexión exitosa"; // opcional para probar
 } catch (PDOException $e) {
     echo "Error de conexión: " . $e->getMessage();
     exit();
 }
-
-
-
-
 ?>
