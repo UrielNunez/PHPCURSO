@@ -1,5 +1,5 @@
 <?php
-$url_base = "https://urielnunez.gamer.gd/phpcurso/"; // Define the base URL for the project
+$url_base = "https://urielnunez.gamer.gd/PHPCURSO/"; // Define the base URL for the project
 ?>
 
 <!DOCTYPE html>
