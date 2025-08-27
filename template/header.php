@@ -21,7 +21,7 @@ $url_base = "https://urielnunez.gamer.gd/PHPCURSO/"; // Define the base URL for 
             <a class="nav-item nav-link active" style="font-size: 20px; font-weight: bold;" href="<?php echo $url_base;?>"  aria-current="page"
                 >Home <span class="visually-hidden">(current)</span></a
             >
-            <a class="nav-item nav-link" style="font-size: 20px; font-weight: bold;" href="<?php echo $url_base;?>secciones/clientes/">Clientes</a>
+            <a class="nav-item nav-link" style="font-size: 20px; font-weight: bold;" href="<?php echo $url_base;?>secciones/clientes">Clientes</a>
         </div>
     </nav>
 

@@ -1,4 +1,9 @@
 <?php
+error_reporting(E_ALL);
+ini_set('display_errors', 1);
+?>
+
+<?php
 include("../../template/header.php"); // Include the header template
 include("eliminar_.php"); // Include the delete functionality
 ?>
